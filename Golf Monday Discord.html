@@ -1,0 +1,146 @@
+
+
+<DOCTYPE! html>
+
+    <html> 
+        <head>
+            <title> Golf Monday? Offical Website </title>
+
+            <style type="text/css" >
+       
+                span.a {
+                    width: 1150px;
+                    height: 800px;
+                    display:block;
+                    background-color: lightskyblue;
+                    padding: 5px;
+                    color: black;
+                    border: 5px solid grey;
+            
+                }
+
+                .images {
+                  justify-content:flex;
+                }
+
+                .bubble {
+                  position: relative; top: -150; left: -50;
+                }
+         
+             </style>
+        </head>
+
+    <link href="Background Left.css" rel="Stylesheet" type="text/css">
+
+    <div class="d-flex flex-column justify-content-center w-100 h-100">
+
+    <script>
+
+
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+ 
+    if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+    } else {
+    navbar.classList.remove("sticky");
+      }
+    }    
+
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
+
+    </script>
+
+<link href="Sticky Nav Left.css" rel="stylesheet" type="text/css"></link> 
+
+<div id="navbar">
+    <a href="#Menu" onclick="openNav()"> Menu </a>
+    <a href="Golf Monday Discord.html" >Discord </a>
+    <a href="Golf Monday News.html">News </a>
+    <div class="dropdown">
+        <button class="dropbtn">Games
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Golf Monday Dota.html" style="color: black" >Gamers Dota 2</a>
+          <a href="#" style="color: black" >Gamers FPS</a>
+          <a href="#" style="color: black">Various Other Games </a>
+        </div>
+      </div>
+</div>
+
+
+
+<link href="SideNav.css" rel="stylesheet" type="text/css"></link>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="Golf Monday Left.html">Home </a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#"> Help </a>
+  </div>
+  <div id="main">
+  </div>
+
+
+  <body>
+
+
+    <span class="a"> 
+
+        <img src="Discord Logo.jpg" alt="Discord" width="450" height="300" align="right">
+     
+     
+        <h2> Welcome to the Discord Members Page! </h2>
+        
+   <div class="images">
+      <img src="Discord Members 1.jpg" alt="Discord" width="200" height="550" >
+      <img src="Discord Members 2.jpg" alt="Discord" width="200" height="550" >
+      <img src="Discord Members 3.jpg" alt="Discord" width="200" height="550" >
+
+    </div>
+
+    <!--
+    <p> Discord Server Head: HelloRobotics (The Messiah) </p>
+    &nbsp;
+    <p> Discord Mods: Knee Gear and Edge Tember (The Burgeouis) </p>
+    &nbsp;
+    <p> Discord Queen: Chase_Kingsnake</p>
+    &nbsp;
+    <p> Favored Weeb: Megurin </p>
+    &nbsp;
+    <p> High Overseers: Nedmo and Commandobrando  </p>
+    -->
+
+
+    <div class="bubble">
+    <a href="https://discord.gg/GR2rWJc2" target="blank">
+        <img src="Discord Circle.jpg" alt="Discord Circle" width="300" height="300" align="right" >
+        </a> </div>
+   
+    <p> Vanguard of the Working People: Clippy  </p>
+    &nbsp;
+    <p> Pitt Boys: Shamuria, Ok, Will, Luke </p>
+    &nbsp;
+    <p> Resident Medic: Gank Em John! </p>
+
+
+    </span>
+
+
+     
+ </body>
+</html>
