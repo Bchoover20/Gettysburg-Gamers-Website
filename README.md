@@ -5,5 +5,5 @@ Named after the discord that we are apart of, it showcases my knowledge of diffe
   
   With that said --- THIS IS NOT A PROFFESIONAL PROJECT and should not be treated as such. 
   
-  Sincerely,
+  Sincerely, 
   Brandon 
